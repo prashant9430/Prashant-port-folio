@@ -6,7 +6,6 @@ import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// ScrollSmoother replacement — simple native smooth scroll
 export let smoother = {
   paused: (_val: boolean) => {},
   scrollTop: (_val: number) => {},
@@ -18,7 +17,6 @@ export let smoother = {
 
 const Navbar = () => {
   useEffect(() => {
-    // Native smooth scroll setup
     document.documentElement.style.scrollBehavior = "smooth";
 
     let links = document.querySelectorAll(".header ul a");
@@ -43,14 +41,14 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          RC
+          PPP
         </a>
         <a
-          href="mailto:rajeshchittyal21@gmail.com"
+          href="mailto:Prashantkumarpandey9430@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          rajeshchittyal21@gmail.com
+          Prashantkumarpandey9430@gmail.com
         </a>
         <ul>
           <li>
